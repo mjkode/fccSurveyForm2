@@ -1,0 +1,121 @@
+<head>
+  <!-- <meta charset="utf-8"> -->
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet"> -->
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>Survey Form</h1>
+    </div>
+    <form class="form" id="form1">
+      <div class="subtitle">
+        <h2>Do You Want To Start a Start-Up!</h2>
+      </div>
+      <div class="row">
+        <div class="labels">
+          <label for="name">* Name:</label>
+        </div>
+        <div class="inputs">
+          <input autofocus type="text" name="name" class="input-field" placeholder="Enter your name" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="labels">
+          <label for="email">* Email:</label>
+        </div>
+        <div class="inputs">
+          <input type="email" name="email" class="input-field" placeholder="Enter your email" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="labels">
+          <label for="age">* Age:</label>
+        </div>
+        <div class="inputs">
+          <input type="text" name="age" class="input-field" placeholder="Enter your age" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="labels">
+          <label for="role">Which option best describes your current position?</label>
+        </div>
+        <div class="inputs">
+          <div class="options">
+            <select>
+              <option disabled value selected="selected">Select an Option</option>
+              <option value="student">Student</option>
+              <option value="learner">Self Learner</option>
+              <option value="professional">Professional</option>
+              <option value="hobbyist">Hobbyist</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="labels">
+          <label for="recommend">* How likely is it that you'd help found a Start-Up if there was no guarantee of pay?</label>
+        </div>
+        <div class="inputs">
+          <div class="radios">
+            <div class="block">
+              <label for="definitely"><input type="radio" name="recommend">Definitely</label>
+            </div>
+            <div class="block">
+              <label for="maybe"><input type="radio" name="recommend">Maybe</label>
+            </div>
+            <div class="block">
+              <label for="no"><input type="radio" name="recommend">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="labels">
+          <label for="like">* Why do you want to start a Start-Up:</label>
+        </div>
+        <div class="inputs">
+          <div class="options">
+            <select>
+              <option disabled value selected="selected">Select an Option</option>
+              <option value="challenges">Save the World</option>
+              <option value="projects">Get Rich</option>
+              <option value="community">Control Freak</option>
+              <option value="opensource">Otherwise unemployable</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="labels">
+          <label for="improved">What would be your role at the Start-Up<br>(Check all that apply):</label>
+        </div>
+        <div class="inputs">
+          <div class="checks">
+            <div class="check-block"><input type="checkbox" name="front">Front-End</div>
+            <div class="check-block"><input type="checkbox" name="back">Back-End</div>
+            <div class="check-block"><input type="checkbox" name="data">Operation</div>
+            <div class="check-block"><input type="checkbox" name="challenges">Project Mgt.</div>
+            <div class="check-block"><input type="checkbox" name="open">Marketing</div>
+            <div class="check-block"><input type="checkbox" name="gitter">Business Mgt</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="labels">
+          <label for="textarea">What Are Your Thoughts?</label>
+        </div>
+        <div class="inputs">
+          <textarea placeholder="Enter your comment here..."></textarea>
+        </div>
+      </div>
+      <div class="subbutton">
+        <button type="submit" form="form1" value="Submit" class="buttonstyle">Submit</button>     
+      </div>
+    </form>
+    <div class="footer">
+      <p>Michael J. Kiger. Owner, WPSiteWork 5/29/2019</p>
+    </div>
+  </div>
+</body>
