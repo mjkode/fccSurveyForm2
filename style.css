@@ -1,5 +1,3 @@
-
-
 body{
   background-color: #6fb98f;
   background: radial-gradient(#004445, #6fb98f) no-repeat center center fixed;
@@ -12,7 +10,7 @@ body{
   padding-bottom: 20px;
 }
 
-.subtitle{
+.menu-head{
   padding-top: 20px;
   padding-bottom: 20px;
 }

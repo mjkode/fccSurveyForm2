@@ -1,8 +1,6 @@
-<head>
-
+<head> 
   <title>Survey Form</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet"> -->
 </head>
 <body>
   <div class="container">
@@ -10,15 +8,15 @@
       <h1>Survey Form</h1>
     </div>
     <form class="form" id="form1">
-      <div class="subtitle">
-        <h2>Do You Want To Start a Start-Up!</h2>
+      <div class="menu-head">
+        <h2>Do You Want To Start a Start-Up?</h2>
       </div>
       <div class="row">
         <div class="labels">
           <label for="name">* Name:</label>
         </div>
         <div class="inputs">
-          <input autofocus type="text" name="name" class="input-field" placeholder="Enter your name" required>
+          <input autofocus type="text" name="name" class="input-field" placeholder="Your name?" required>
         </div>
       </div>
       <div class="row">
@@ -26,7 +24,7 @@
           <label for="email">* Email:</label>
         </div>
         <div class="inputs">
-          <input type="email" name="email" class="input-field" placeholder="Enter your email" required>
+          <input type="email" name="email" class="input-field" placeholder="Your email?" required>
         </div>
       </div>
       <div class="row">
@@ -34,19 +32,18 @@
           <label for="age">* Age:</label>
         </div>
         <div class="inputs">
-          <input type="text" name="age" class="input-field" placeholder="Enter your age" required>
+          <input type="text" name="age" class="input-field" placeholder="Your age?" required>
         </div>
       </div>
       <div class="row">
         <div class="labels">
-          <label for="role">Which option best describes your current position?</label>
+          <label for="role">Your current position tech level?</label>
         </div>
         <div class="inputs">
           <div class="options">
             <select>
-              <option disabled value selected="selected">Select an Option</option>
+              <option disabled value selected="selected">Select one</option>
               <option value="student">Student</option>
-              <option value="learner">Self Learner</option>
               <option value="professional">Professional</option>
               <option value="hobbyist">Hobbyist</option>
             </select>
@@ -55,34 +52,34 @@
       </div>
       <div class="row">
         <div class="labels">
-          <label for="recommend">* How likely is it that you'd help found a Start-Up if there was no guarantee of pay?</label>
+          <label for="founder">* Would you work at a Start-Up if there was no guarantee of pay?</label>
         </div>
         <div class="inputs">
           <div class="radios">
             <div class="block">
-              <label for="definitely"><input type="radio" name="recommend">Definitely</label>
+              <label for="probably"><input type="radio" name="founder">Probably</label>
             </div>
             <div class="block">
-              <label for="maybe"><input type="radio" name="recommend">Maybe</label>
+              <label for="maybe"><input type="radio" name="founder">Maybe</label>
             </div>
             <div class="block">
-              <label for="no"><input type="radio" name="recommend">No</label>
+              <label for="no"><input type="radio" name="founder">No</label>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="labels">
-          <label for="like">* Why do you want to start a Start-Up:</label>
+          <label for="motivation">* Why do you want to start a Start-Up:</label>
         </div>
         <div class="inputs">
           <div class="options">
             <select>
               <option disabled value selected="selected">Select an Option</option>
-              <option value="challenges">Save the World</option>
-              <option value="projects">Get Rich</option>
-              <option value="community">Control Freak</option>
-              <option value="opensource">Otherwise unemployable</option>
+              <option value="meaning">Save the World</option>
+              <option value="money">Get Rich</option>
+              <option value="control">Control Freak</option>
+              <option value="job">Otherwise unemployable</option>
             </select>
           </div>
         </div>
@@ -95,10 +92,10 @@
           <div class="checks">
             <div class="check-block"><input type="checkbox" name="front">Front-End</div>
             <div class="check-block"><input type="checkbox" name="back">Back-End</div>
-            <div class="check-block"><input type="checkbox" name="data">Operation</div>
-            <div class="check-block"><input type="checkbox" name="challenges">Project Mgt.</div>
-            <div class="check-block"><input type="checkbox" name="open">Marketing</div>
-            <div class="check-block"><input type="checkbox" name="gitter">Business Mgt</div>
+            <div class="check-block"><input type="checkbox" name="ops">Operation</div>
+            <div class="check-block"><input type="checkbox" name="proj">Project Mgt</div>
+            <div class="check-block"><input type="checkbox" name="mkt">Marketing</div>
+            <div class="check-block"><input type="checkbox" name="biz">Business Mgt</div>
           </div>
         </div>
       </div>
